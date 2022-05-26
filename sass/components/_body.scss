@@ -1,0 +1,10 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: $primary-text-color;
+    background-color: $primary-bg-color;
+    
+
+    @include for-desctop-up {
+        background-color: $desctop-bg-color;
+    }   
+}

@@ -1,0 +1,20 @@
+.logo {
+    display: inline-block;
+
+    @include for-phone-only {
+        padding-top: 8px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+.logo__icon {
+    fill: $primary-text-color;
+
+    @include for-desctop-down {
+        width: 96px;
+    }
+
+    @include for-desctop-up {
+        width: 158px;
+    }    
+}

@@ -1,0 +1,28 @@
+.header__container {
+    position: relative;
+    text-align: center;   
+
+    @include for-tablet-only {        
+        padding-left: 33px;
+        padding-right: 33px;
+    }
+
+    @include for-desctop-up {        
+        padding-left: 19px;
+        padding-right: 19px;
+    }
+}
+
+.header__title {
+    font-family: Caveat Brush;
+
+    @include for-desctop-down {
+        font-size: 30px;
+        line-height: 1.27;
+    }
+
+    @include for-desctop-up {        
+        font-size: 64px;
+        line-height: 1.02;
+    }    
+}

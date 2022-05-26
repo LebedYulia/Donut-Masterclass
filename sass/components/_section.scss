@@ -1,0 +1,13 @@
+.section__title {
+    font-family: Caveat Brush;
+
+    @include for-desctop-down {
+        font-size: 24px;
+        line-height: 1.25;
+    }
+
+    @include for-desctop-up {
+        font-size: 36px;
+        line-height: 1.43;
+    }    
+}

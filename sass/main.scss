@@ -1,5 +1,15 @@
-@import 'body';
-@import './header';
-@import './logo';
-@import './nav';
+// Utils
+@import './utils/variables';
+@import './utils/breakpoint';
+@import './utils/reset';
+
+// Сommon
+@import './components/body';
+@import './components/container';
+@import './components/section';
+
+// Header
+@import './components/header';
+@import './components/logo';
+@import './components/nav';
 
