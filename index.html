@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="./css/main.min.css" />
 </head>
 <body>
+
     <!-- Header -->
 <section class="header">
     <div class="header__container container">
@@ -37,7 +38,7 @@
         </a>
         <nav class="nav">
           <ul class="nav__list">
-            <li class="nav__item"><a class="nav__link" href="#About us">About us</a></li>
+            <li class="nav__item"><a class="nav__link" href="#About_us">About us</a></li>
             <li class="nav__item"><a class="nav__link" href="#Program">Program</a></li>
             <li class="nav__item"><a class="nav__link" href="#Reviews">Reviews</a></li>
             <li class="nav__item"><a class="nav__link" href="#Contacts">Contacts</a></li>
@@ -74,7 +75,7 @@
   </section>
 
   <!-- About us -->
-  <section class="section" id="About us">
+  <section class="section" id="About_us">
     <div class="container">
     <div class="about-us__picture"></div>
     <h3 class="section__title">About us</h3>
@@ -91,7 +92,7 @@
 
   <!-- Program -->
 
-  <section class="section">
+  <section class="section" id="Program">
     <div class="container">   
   <h3 class="section__title">Program</h3>
   <p class="program__text">
@@ -143,10 +144,11 @@
             <div class="event__box">
                 <h4 class="event__title">The host speaks</h4>
                 <P class="event__text">English, French</P>
+                <svg width="25" height="25" class="event__icon">
+                  <use href="./images/icons.svg#chat"></use>
+                </svg>
             </div>
-            <svg width="25" height="20" class="event__icon">
-                <use href="./images/icons.svg#chat"></use>
-              </svg>
+            
         </li>
     </ul>
 </div>
@@ -155,7 +157,7 @@
 
 <!-- Reviews -->
 
-<section class="Reviews">
+<section class="Reviews" id="Reviews">
     <div class="container">
         <h3 class="section__title">Reviews</h3>
         <ul class="reviews__list">
@@ -225,7 +227,7 @@
 </section>
 
 <!-- Contact -->
-<section class="section">
+<section class="section" id="Contact">
     <div class="container">
         <h3 class="section__title">Contact</h3>
         <h4 class="contact__title">We will answer any question!</h4>

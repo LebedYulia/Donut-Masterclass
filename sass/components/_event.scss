@@ -1,0 +1,53 @@
+.event__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event__box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    border-radius: 50%;
+    background-color: $desctop-bg-color;
+    box-shadow: 0 4px rgba(171, 129, 108, 0.25);
+
+    @include for-phone-only {
+        width: 130px;
+        height: 130px;
+        }    
+}
+
+.event__item:nth-child(2) {
+    margin-top: 34px;
+    
+}
+
+.event__title {
+    font-family: $title-font;
+    color: $secondary-text-color;
+
+    @include for-phone-only {        
+        font-size: 18px;
+        line-height: 1.28;
+    }
+}
+
+.event__text {
+    color: $secondary-text-color;
+
+    @include for-phone-only {
+        margin-top: 5px;  
+        margin-bottom: 8px;        
+        font-size: 14px;
+        line-height: 1.21;
+    }
+}
+
+.event__icon {
+    fill: $icon-color;
+
+    @include for-phone-only {
+        margin-bottom: 11px;
+    }
+}
