@@ -1,0 +1,25 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #FEF3E4;
+}
+
+.header__container {
+  width: 1280px;
+  padding: 0 20px;
+}
+
+.header__title {
+  font-size: 64px;
+  line-height: 1.02;
+}
+
+.logo__icon {
+  fill: black;
+  border: 1px solid blue;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 1.22;
+  text-decoration: none;
+}
