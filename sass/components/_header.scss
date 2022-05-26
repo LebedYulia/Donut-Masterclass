@@ -14,15 +14,32 @@
 }
 
 .header__title {
-    font-family: Caveat Brush;
+    margin-top: 30px;
+    margin-bottom: 8px;
 
-    @include for-desctop-down {
-        font-size: 30px;
-        line-height: 1.27;
-    }
+    font-family: Caveat Brush;
+    font-size: 30px;
+    line-height: 1.27;
+
+    @include for-tablet-up {        
+        margin-top: 15px;        
+    }    
+   
 
     @include for-desctop-up {        
         font-size: 64px;
         line-height: 1.02;
     }    
+}
+
+.header__subtitle {
+        margin-bottom: 32px;    
+        font-size: 16px;
+        line-height: 1.25;
+    
+
+    @include for-desctop-up {        
+        font-size: 24px;
+        line-height: 1.21;
+    } 
 }
